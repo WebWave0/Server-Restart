@@ -1,0 +1,10 @@
+{
+  "name": "Server-Restart",
+  "version": "1.0.0",
+  "description": "A script that, when sending a request to a local server, reloads a specific .bat file, if there is no such file, the script itself runs it.",
+  "dependencies": {
+    "express": "^4.17.1",
+    "child_process": "^1.0.2",
+    "pidusage": "^2.0.0"
+  }
+}
